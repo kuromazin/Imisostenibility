@@ -1,0 +1,50 @@
+body{
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.titulos{
+    font-size: 200%;
+    text-align: center;
+    color: green;
+}
+.titulos2{
+    font-size: 200%;
+    text-align: left;
+    color: green;
+}
+.textos{
+    text-align: justify;
+}
+.opacidad{
+    opacity: 55%;
+    background: rgba(0,0,0,0.5); 
+}
+.carrousel{
+    color: black;
+}
+.imagenes{
+    justify-content: center;
+    width: 110%;
+}
+.center img{
+    margin-left: 12.5%;
+    display: flex;
+}
+.img {
+    justify-content: center ;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+@media screen and (max-width:800px) {
+    .img{
+    margin-left: 15%;
+    margin-right: 35%;
+    }
+    body{
+        margin-left: -5%;
+        margin-right: -5%;  
+    }
+}
